@@ -3,8 +3,7 @@
  A full stack Pinterest-style website for users to save and share learning resources, supporting various user interactions such as liking or unliking a post, commenting, and rating. 
 
 ## Final Project
-!["Screenshot of URLs page"](https://github.com/xiadongdev/chatty/blob/master/docs/conversation%20and%20renaming.png?raw=true)
-!["Screenshot of URLs page"](https://github.com/xiadongdev/chatty/blob/master/docs/sending%20images.png?raw=true)
+!["Screenshot of URLs page"](https://github.com/xiadongdev/The-Waterhole/blob/master/docs/home.png?raw=true)
 
 ## Getting Started
 
