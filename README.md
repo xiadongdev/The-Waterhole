@@ -1,29 +1,24 @@
-# Node Skeleton
+# The Waterhole
 
-## Project Setup
+ A full stack Pinterest-style website for users to save and share learning resources, supporting various user interactions such as liking or unliking a post, commenting, and rating. 
 
-1. Create your own empty repo on GitHub
-2. Clone this repository (do not fork)
-  - Suggestion: When cloning, specify a different folder name that is relevant to your project
-3. Remove the git remote: `git remote rm origin`
-4. Add a remote for your origin: `git remote add origin <your github repo URL>`
-5. Push to the new origin: `git push -u origin master`
-6. Verify that the skeleton code now shows up in your repo on GitHub
+## Final Project
+!["Screenshot of URLs page"](https://github.com/xiadongdev/chatty/blob/master/docs/conversation%20and%20renaming.png?raw=true)
+!["Screenshot of URLs page"](https://github.com/xiadongdev/chatty/blob/master/docs/sending%20images.png?raw=true)
 
 ## Getting Started
 
-1. Create the `.env` by using `.env.example` as a reference: `cp .env.example .env`
-2. Update the .env file with your correct local information
-3. Install dependencies: `npm i`
-4. Fix to binaries for sass: `npm rebuild node-sass`
-5. Run migrations: `npm run knex migrate:latest`
-  - Check the migrations folder to see what gets created in the DB
-6. Run the seed: `npm run knex seed:run`
-  - Check the seeds file to see what gets seeded in the DB
-7. Run the server: `npm run local`
-8. Visit `http://localhost:8080/`
+1. Install dependencies using the `npm install` command.
+2. Start the web server using the `npm start` command.
+3. Run migrations: `npm run knex migrate:latest`.
+4. Run the seed: `npm run knex seed:run`.
+5. Go to <http://localhost:8080/> in your browser to see the website.
 
 ## Dependencies
 
 - Node 5.10.x or above
 - NPM 3.8.x or above
+- Express
+- body-parser
+- Knex
+- PostgreSQL
